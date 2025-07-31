@@ -1,5 +1,6 @@
-# THM-NetworkingProtocols
-Writeup for TryHackMe Networking Lab - Packet-level walkthrough of core networking protocols (DHCP, ARP, ICMP, Routing, NAT) with security analysis, diagnostics, and mitigation techniques using tcpdump, Wireshark, and traceroute.
+# NetworkingProtocols
+
+Packet-level walkthrough of core networking protocols (DHCP, ARP, ICMP, Routing, NAT) with security analysis, diagnostics, and mitigation techniques using tcpdump, Wireshark, and traceroute.
 
 By Ramyar Daneshgar
 
@@ -192,7 +193,7 @@ NAT does not provide security by itself. It simply masks internal IP addresses. 
 - Defensive measures:
   - Treat NAT as a **translation mechanism**, not a security control.
   - Use **stateful firewalls** to monitor NAT sessions.
-  - Disable or tightly control NAT traversal features (e.g., STUN, TURN, UPnP).
+  - Disable or tightly control NAT traversal features (STUN, TURN, UPnP).
 
 
 
